@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Börsensimulation</title>
   <link rel="stylesheet" href="style.css">
-  <title>Web-Engineering I</title>
 </head>
 <body>
-  <h1>Web-Engineering I - Projekt 1</h1>
-  <h2 class="upper">Börsensimulation</h2>
-  <p>Der Server basiert auf node.js. Er bietet Services über eine Schnittstelle (engl. application programming interface, API) an, über die mit dem Server interagiert werden kann.</p>
-  <p>Die Schnittstellen sind mittels OpenAPI dokumentiert und können unter <a href="/api-docs">/api-docs</a> abgerufen werden.</p>
-  <p>Legen Sie Ihre Lösung in ein Verzeichnis, so wie <a href="studierendeAundB/index.html">studierendeAundB</a> </p>
+<header>
+  <h1>Börsensimulation</h1>
+  <div id="user-info">
+    <span id="username"></span> |
+    <span id="balance"></span>
+  </div>
+</header>
+<main>
+  <section id="stock-prices">
+    <!-- Hier wird die grafische Darstellung der Aktienkurse eingebunden -->
+  </section>
+  <section id="transactions">
+    <!-- Hier wird eine Liste der Transaktionen angezeigt -->
+  </section>
+  <section id="leaderboard">
+    <!-- Hier wird die Rangliste angezeigt -->
+  </section>
+  <section id="messages">
+    <!-- Hier werden Kauf-/Verkaufsnachrichten angezeigt -->
+  </section>
+</main>
+<script src="app.js"></script>
 </body>
 </html>
-
-
